@@ -5,7 +5,6 @@
 #include "Board.hpp"
 
 namespace WarGame {
-
     Soldier *&Board::operator[](std::pair<int, int> location) {
         Soldier * s;
         return s;
@@ -19,7 +18,7 @@ namespace WarGame {
     {
         return;
     }
-    
+
     bool Board::has_soldiers(uint player_number) const {
         return true;
     }
