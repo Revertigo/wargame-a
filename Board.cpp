@@ -6,7 +6,7 @@
 
 namespace WarGame {
     Soldier *&Board::operator[](std::pair<int, int> location) {
-        Soldier * s;
+        Soldier * s = nullptr;
         return s;
     }
 
