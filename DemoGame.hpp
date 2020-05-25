@@ -13,11 +13,13 @@
 namespace WarGame {
     class DemoGame {
     private:
+        const int numRows = 8;
+        const int numCols = 8;
         Board board;
     public:
 
         /**
-        * The constructor initializes the board and places the soldiers.
+        * The constructor initilizes the board and places the soldiers.
         */
         DemoGame();
 
@@ -29,6 +31,6 @@ namespace WarGame {
         /**
         * The destructor deletes the soldiers from the board.
         */
-        //~DemoGame();
+        ~DemoGame();
     };
 }
